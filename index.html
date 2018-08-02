@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <video src="vedioplayback.mp4" autoplay controls id="vedio">
+
+    </video>
+    <br>
+    <button type="button" name="button" onclick="play()">play</button>
+    <button type="button" name="button" onclick="pause()">pause</button>
+
+
+  </body>
+</html>
+<script type="text/javascript">
+function play(){
+  var
+  vid=document.getElementById('vedio');
+  vid.play();
+}
+function pause(){
+  var
+  vid=document.getElementById('vedio');
+  vid.pause();
+}
+
+</script>
